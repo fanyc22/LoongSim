@@ -1,0 +1,44 @@
+# 忽略编译输出
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.a
+*.lib
+
+# 忽略调试信息
+*.log
+*.tmp
+*.swp
+*.dSYM/       # macOS 调试符号
+*.ipdb
+*.pdb
+
+# 忽略 CMake 临时文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+*.iml
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 忽略 Python 脚本生成的临时文件
+tests/data/
+
+
+# 忽略临时和备份文件
+*~
+*.bak
+*.swp
+*.swo
